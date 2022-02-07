@@ -1,0 +1,14 @@
+allure
+builds
+coverage
+logs
+node_modules
+reports
+screenshots
+storybook-static
+
+.idea
+.terragrunt-cache
+.vscode
+
+*.log

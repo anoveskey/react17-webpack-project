@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "src",
+    "esModuleInterop": true,
+    "jsx": "react",
+    "lib": ["dom", "es5", "es6", "es7", "es2017", "esnext.intl", "es2017.intl", "es2018.intl"],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": false,
+    "paths": {
+      "*": ["src/*"]
+    },
+    "removeComments": true,
+    "sourceMap": true,
+    "target": "ESNext"
+  },
+  "exclude": ["node_modules", "build"],
+  "include": ["./src", "webpack.config.ts"]
+}
