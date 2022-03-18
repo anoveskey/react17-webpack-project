@@ -5,7 +5,7 @@
     "baseUrl": "src",
     "esModuleInterop": true, /* Enables emit interoperability between CommonJS and ES Modules via creation of namespace objects for all imports. Implies 'allowSyntheticDefaultImports'. */
     "forceConsistentCasingInFileNames": true /* Disallow inconsistently-cased references to the same file. */,
-    "isolatedModules": true /* Transpile each file as a separate module (similar to 'ts.transpileModule'). */,
+    "isolatedModules": false /* Transpile each file as a separate module (similar to 'ts.transpileModule'). "webpack.config.ts cannot be compiled under " " because it is considered a global script file*/,
     "jsx": "react", /* Specify JSX code generation: 'preserve', 'react-native', 'react' or 'react-jsx'. */
     "lib": ["dom", "es5", "es6", "es7", "es2017", "esnext.intl", "es2017.intl", "es2018.intl"], /* Specify library files to be included in the compilation. */
     "module": "commonjs", /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', 'es2020', or 'ESNext'. */

@@ -1,0 +1,16 @@
+body {
+    background-color: black;
+}
+
+div {
+    color: white;
+}
+
+h1 {
+    color: orange;
+}
+
+h3 {
+    color: white;
+    font-style: italic;
+}
