@@ -1,16 +1,16 @@
 body {
-    background-color: black;
+  background-color: black;
 }
 
 div {
-    color: white;
+  color: white;
 }
 
 h1 {
-    color: orange;
+  color: orange;
 }
 
 h3 {
-    color: white;
-    font-style: italic;
+  color: white;
+  font-style: italic;
 }
